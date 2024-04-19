@@ -1,0 +1,10 @@
+div{
+    height: 400px;
+    width: 603px;
+    background-color: brown;
+    border: 2px solid black;
+}
+#box{
+    background-image: url("photo.jpg");
+    background-size: cover;
+}

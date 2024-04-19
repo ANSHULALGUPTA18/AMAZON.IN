@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    position:absolute;
+    top: 10px;   /*browser ka starting*/
+    left: 20px;
+}
+#box4{
+    position: fixed;
+    top: 25px;
+    left:26px;
+
+}
+#box5{
+    position:sticky;
+    top: 65px;
+    left: 54px;
+}

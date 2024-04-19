@@ -1,0 +1,33 @@
+.navbar{
+    background-color: blue;
+    display:flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    background-color: yellow;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+}
+.inner{
+    height: 100px;
+    width:100px;
+    background-color: beige;
+}
+div{
+    height:200px ;
+    width: 300px;
+    background-color: yellowgreen;
+}
+@media(min-width:210px){
+    div{
+        background-color:yellow ;
+    }
+}
